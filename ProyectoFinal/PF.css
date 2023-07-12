@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: antiquewhite;
+    display: flex;/* Ajustar a los elementos uno alado de otro */
+    justify-content: space-between; 
+    align-items: center; /*Aliniar en el centro*/
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-right: 10px; /*Dar separacion a lo escrito*/
+}
+nav img{
+    height: 15vh;
+}
