@@ -6,7 +6,7 @@
 header{
     width: 100%;
     height: 15vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;/* Ajustar a los elementos uno alado de otro */
     justify-content: space-between; 
     align-items: center; /*Aliniar en el centro*/
@@ -15,13 +15,119 @@ nav {
     display: flex;
     align-items: center;
 }
-ul{
+nav img{
+    margin-right: 20px;
+    height: 15vh;
+}
+.menu{
     display: flex;
 }
-li{
+.menu li{
+    font-size: 30px;
     list-style-type: none;
     margin-right: 10px; /*Dar separacion a lo escrito*/
 }
-nav img{
-    height: 15vh;
+.Interactivos{
+    display: flex;
+    margin-right: 50px;
+}
+.Interactivos li{
+    font-size: 35px;
+    list-style-type: none;
+    margin-right: 25px; /*Dar separacion a lo escrito*/
+}
+.Interactivos a{
+    color: black;
+}
+
+/* Aqui empieza el Main */
+main{
+    background-color: white;
+}
+section {
+    margin-bottom: 25px;
+    padding: 0;/* Espacio y relleno entre secciones */
+}
+
+.C1{
+    background-color: green;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding: 15px;
+}
+.caja1 h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.caja1 p {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+} 
+.caja1 a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-top: 25px;
+}
+
+.section2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: red;
+}
+.imgcaja2 img{
+    width: 100%;
+    height: 50vh;
+}
+.texcaja2{
+    color: white;
+    width: 100vh;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10%;
+}
+.texcaja2 a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-top: 50px;
+}
+
+.section3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: red;
+}
+.imgcaja3 img{
+    width: 100%;
+    height: 50vh;
+}
+.texcaja3{
+    color: white;
+    width:100vh;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10%;
+}
+.texcaja3 a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-top: 50px;
+}
+
+/* Aqui empieza el footer */
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+footer li{
+    font-size: 30px;
+    margin-right: 10px;
 }
